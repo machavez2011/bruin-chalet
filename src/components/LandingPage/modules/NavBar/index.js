@@ -1,3 +1,3 @@
-import LandingPage from "./nav-bar";
+import NavBar from "./nav-bar";
 
-export default LandingPage;
+export default NavBar;
