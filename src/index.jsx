@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // need router
-import CalendarPicker from './components/calendar/calendar-picker';
+import LandingPage from './components/LandingPage';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CalendarPicker />
+    <LandingPage />
   </React.StrictMode>,
 )
