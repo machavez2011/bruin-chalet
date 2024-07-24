@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavBar = () => {
+const NavBar = ({openModal}) => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
@@ -14,6 +14,7 @@ const NavBar = () => {
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item" onClick={openModal}><a class="nav-link">Check Availability</a></li>
                     </ul>
                 </div>
             </div>
