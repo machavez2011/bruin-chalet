@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import BookingModal from './modules/BookingModal';
 import NavBar from "./modules/NavBar/nav-bar";
 import Header from './modules/Header';
-import Project from './modules/Project';
+import Activities from './modules/Activities';
 import Signup from './modules/Signup';
 import Contact from './modules/Contact';
 
@@ -18,7 +18,7 @@ const LandingPage = () => {
 
             <BookingModal showModal={showModal} handleClose={handleClose} />
 
-            <Project />
+            <Activities />
 
             <Signup />
 
