@@ -1,6 +1,6 @@
 {
   "name": "bruin-chalet",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://machavez2011.github.io/bruin-chalet",
   "type": "module",
