@@ -10,7 +10,7 @@ const App = () => {
   const handleShow = () => setShowModal(true);
   const handleClose = () => setShowModal(false);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<NavBar openModal={handleShow} />}>
           <Route
