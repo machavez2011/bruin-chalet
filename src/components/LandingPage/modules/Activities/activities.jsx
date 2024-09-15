@@ -6,7 +6,7 @@ const Activities = () => {
         <section className="projects-section bg-light" id="projects">
             <Container className="px-4 px-lg-5">
                 <Row className="gx-0 mb-4 mb-lg-5 align-items-center">
-                    <Col xl={8} lg={7}><Image className="img-fluid mb-3 mb-lg-0" src="assets/img/activities/WelcomeTheVillage.webp" alt="..." /></Col>
+                    <Col xl={8} lg={7}><Image className="img-fluid mb-3 mb-lg-0" src="./assets/img/activities/WelcomeTheVillage.webp" alt="..." /></Col>
                     <Col xl={4} lg={5}>
                         <div className="featured-text text-center text-lg-left">
                             <h4>The Village</h4>
@@ -15,7 +15,7 @@ const Activities = () => {
                     </Col>
                 </Row>
                 <Row className="gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <Col lg={6}><Image className="img-fluid" src="assets/img/activities/BigBearLake.jpg" alt="..." /></Col>
+                    <Col lg={6}><Image className="img-fluid" src="./assets/img/activities/BigBearLake.jpg" alt="..." /></Col>
                     <Col lg={6}>
                         <div className="text-center h-100 project">
                             <div className="d-flex h-100">
@@ -28,7 +28,7 @@ const Activities = () => {
                     </Col>
                 </Row>
                 <Row className="gx-0 justify-content-center">
-                    <Col lg={6}><Image className="img-fluid" src="assets/img/activities/BigBearSkiing.png" alt="..." /></Col>
+                    <Col lg={6}><Image className="img-fluid" src="./assets/img/activities/BigBearSkiing.png" alt="..." /></Col>
                     <Col lg={6} className="order-lg-first">
                         <div className="text-center h-100 project">
                             <div className="d-flex h-100">
