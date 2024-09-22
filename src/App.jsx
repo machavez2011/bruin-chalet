@@ -2,9 +2,9 @@
 import React, { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LandingPage from './components/LandingPage';
-import ContactPage from './components/ContactPage';
-import NavBar from './components/NavBar';
+import LandingPage from './modules/LandingPage';
+import ContactPage from './modules/ContactPage';
+import NavBar from './modules/NavBar';
 
 const App = () => {
   const [showModal, setShowModal] = useState(false);
