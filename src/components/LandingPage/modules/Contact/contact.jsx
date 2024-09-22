@@ -36,11 +36,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="social d-flex justify-content-center">
-                    <a className="mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-                    <a className="mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-                    <a className="mx-2" href="#!"><i className="fab fa-github"></i></a>
-                </div>
             </div>
         </section>
     )

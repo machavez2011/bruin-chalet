@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import BookingModal from "./modules/BookingModal";
 import Header from "./modules/Header";
 import Activities from "./modules/Activities";
