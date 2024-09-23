@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import "bootstrap/js/src/collapse.js";
 
 const NavBar = ({ openModal }) => {
   return (
