@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingPage from './modules/LandingPage';
 import ContactPage from './modules/ContactPage';
 import NavBar from './modules/NavBar';
