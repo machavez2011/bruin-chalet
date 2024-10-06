@@ -81,6 +81,8 @@
   --bs-link-hover-color: #50817e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #faf4e0;
+  --ucla-blue: #2774AE;
+  --ucla-gold: #F2A900;
 }
 
 *,
@@ -11144,7 +11146,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%);
+  background-color: var(--ucla-blue);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11162,7 +11164,8 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--ucla-blue);
 }
 .contact-section .card {
   border: 0;
