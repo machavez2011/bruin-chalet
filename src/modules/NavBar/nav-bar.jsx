@@ -32,6 +32,9 @@ const NavBar = ({ openModal }) => {
               <Link className="nav-item nav-link" to="/contact">
                 Contact
               </Link>
+              <Link className="nav-item nav-link" to="/photos">
+                Photos
+              </Link>
             </ul>
             <Button variant="primary" className="" onClick={openModal}>
               Check Availability

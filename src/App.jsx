@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from './modules/LandingPage';
 import ContactPage from './modules/ContactPage';
+import PhotosPage from './modules/PhotosPage';
 import NavBar from './modules/NavBar';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             }
           />
           <Route path="contact" element={<ContactPage />} />
+          <Route path="photos" element={<PhotosPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -2,8 +2,7 @@ import React from "react";
 import BookingModal from "./components/BookingModal";
 import Header from "./components/Header";
 import Activities from "./components/Activities";
-import Signup from "./components/Signup";
-import Contact from "./components/Contact";
+import Footer from "../Footer";
 
 const LandingPage = ({ showModal, handleClose, openModal }) => {
   return (
@@ -14,9 +13,7 @@ const LandingPage = ({ showModal, handleClose, openModal }) => {
 
       <Activities />
 
-      <Signup />
-
-      <Contact />
+      <Footer />
     </>
   );
 };
