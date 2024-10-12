@@ -5,6 +5,7 @@ import LandingPage from './modules/LandingPage';
 import ContactPage from './modules/ContactPage';
 import PhotosPage from './modules/PhotosPage';
 import NavBar from './modules/NavBar';
+import Footer from './modules/Footer';
 
 const App = () => {
   const [showModal, setShowModal] = useState(false);
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="photos" element={<PhotosPage />} />
         </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
