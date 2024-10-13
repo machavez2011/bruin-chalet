@@ -11000,7 +11000,7 @@ body {
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#fff, 80%);
+  color: var(--ucla-gold);
   outline: none;
   background-color: transparent;
 }
@@ -11013,7 +11013,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: rgba(255, 255, 255, 0.5 );
+    background-color: rgba(255, 255, 255);
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11044,15 +11044,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: var(--ucla-gold);
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: var(--ucla-gold);
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid var(--ucla-gold);
   }
 }
 
@@ -11179,7 +11179,7 @@ body {
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #64a19d;
+  border-color: var(--ucla-gold);
   border-width: 0.25rem;
   width: 3rem;
 }
