@@ -12,7 +12,7 @@ const Signup = () => {
                         <Form className="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <Row className="input-group-newsletter">
                                 <Col><input className="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></Col>
-                                <div className="col-auto"><Button className="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</Button></div>
+                                <div className="col-auto"><Button className="btn btn-warning disabled" id="submitButton" type="submit">Notify Me!</Button></div>
                             </Row>
                             <div className="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
                             <div className="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
