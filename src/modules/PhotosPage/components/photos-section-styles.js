@@ -1,9 +1,8 @@
 import styled, { css } from 'styled-components';
 
 export const PhotosWrapper = styled.div`
-    padding: 10rem 0;
+    padding: 2rem 12rem;
 `;
 
 export const ButtonWrapper = styled.div`
-    height: 30px;
 `;

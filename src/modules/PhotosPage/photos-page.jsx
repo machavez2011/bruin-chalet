@@ -1,36 +1,15 @@
-import { PhotosWrapper, ButtonWrapper } from "./photos-page-styles.js";
+import React from 'react';
+import PhotosSection from './components/photos-section';
+import { SectionsWrapper } from './photos-pages-styles';
 
 const PhotosPage = () => {
-  return (
-    <PhotosWrapper>
-      <div className="d-inline-flex gap-1">
-        <img src="./assets/img/cabin/FrontFace-tile.jpg" alt="..." className="img-thumbnail"></img>
-        <img src="./assets/img/cabin/FrontFace-tile.jpg" alt="..." className="img-thumbnail"></img>
-        <img src="./assets/img/cabin/FrontFace-tile.jpg" alt="..." className="img-thumbnail"></img>
-        <img src="./assets/img/cabin/FrontFace-tile.jpg" alt="..." className="img-thumbnail"></img>
-        <ButtonWrapper>
-          <button
-            className="btn btn-primary"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapseExample"
-            aria-expanded="false"
-            aria-controls="collapseExample"
-          >
-            See more
-          </button>
-        </ButtonWrapper>
-      </div>
-      <div className="collapse" id="collapseExample">
-        <div className="d-inline-flex gap-1">
-          <img src="./assets/img/cabin/FrontFace-tile.jpg" alt="..." className="img-thumbnail"></img>
-          <img src="./assets/img/cabin/FrontFace-tile.jpg" alt="..." className="img-thumbnail"></img>
-          <img src="./assets/img/cabin/FrontFace-tile.jpg" alt="..." className="img-thumbnail"></img>
-          <img src="./assets/img/cabin/FrontFace-tile.jpg" alt="..." className="img-thumbnail"></img>
-        </div>
-      </div>
-    </PhotosWrapper>
-  );
-};
+    return (
+        <SectionsWrapper>
+            <PhotosSection sectionName={"Bedrooms"} />
+            <PhotosSection sectionName={"Bathrooms"} />
+            <PhotosSection sectionName={"Exterior"} />
+        </SectionsWrapper>
+    )
+}
 
 export default PhotosPage;
